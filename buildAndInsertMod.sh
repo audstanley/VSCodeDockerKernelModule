@@ -2,6 +2,8 @@
 # Richard Stanley
 # Also, I used https://github.com/engineer-man/youtube/tree/master/062
 # as the kernel code, as an example.
+rm rickroll;
+make clean;
 make;
 insmod rickroll.ko;
 # On the host system,
